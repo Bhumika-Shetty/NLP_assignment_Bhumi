@@ -1,0 +1,33 @@
+Loading T5 tokenizer...
+Loading training data...
+Loading development data...
+Loaded 4225 training examples and 466 dev examples
+
+Analyzing statistics before preprocessing...
+Analyzing statistics after T5 preprocessing...
+
+Table 1: Data statistics before preprocessing
+============================================================
+Statistics Name                Train      Dev       
+------------------------------------------------------------
+Number of examples             4225       466       
+Mean sentence length           11.03      10.98     
+Mean SQL query length          64.81      62.67     
+Vocabulary size (NL)           860        442       
+Vocabulary size (SQL)          632        387       
+
+Table 2: Data statistics after T5 preprocessing (google-t5/t5-small)
+============================================================
+Statistics Name                Train      Dev       
+------------------------------------------------------------
+Mean sentence length           23.10      23.07     
+Mean SQL query length          217.37     211.05    
+Vocabulary size (NL)           796        470       
+Vocabulary size (SQL)          556        396       
+
+
+Additional Analysis:
+T5 tokenizer vocabulary size: 32,100
+T5 model name: google-t5/t5-small
+
+Results saved to: statistics_final.txt

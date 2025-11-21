@@ -1,0 +1,16 @@
+Q4: Data Statistics and Processing Results
+==================================================
+
+Table 1: Data statistics before any pre-processing
+Number of examples: Train=4225, Dev=466
+Mean sentence length: Train=11.03, Dev=10.98
+Mean SQL query length: Train=64.81, Dev=62.67
+Vocabulary size (natural language): Train=860, Dev=442
+Vocabulary size (SQL): Train=632, Dev=387
+
+Table 2: Data statistics after pre-processing (T5 tokenization)
+Model name: google-t5/t5-small
+Mean sentence length: Train=23.10, Dev=23.07
+Mean SQL query length: Train=217.37, Dev=211.05
+Vocabulary size (natural language): Train=796, Dev=470
+Vocabulary size (SQL): Train=556, Dev=396
